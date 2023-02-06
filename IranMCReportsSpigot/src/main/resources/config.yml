@@ -1,0 +1,19 @@
+ticket-database:
+  name: "tickets"
+  address: "localhost"
+  port: 3310
+  username: "root"
+  password: ".g6sy^j#//X2@KsU"
+messages:
+
+buttons:
+  next:
+    name: "&eNext"
+    url: "https://textures.minecraft.net/texture/8271a47104495e357c3e8e80f511a9f102b0700ca9b88e88b795d33ff20105eb="
+    lore:
+      - "&7Click to view the next page!"
+  previous:
+    name: "&ePrevious"
+    url: "https://textures.minecraft.net/texture/69ea1d86247f4af351ed1866bca6a3040a06c68177c78e42316a1098e60fb7d3"
+    lore:
+      - "&7Click to view the previous page!"
