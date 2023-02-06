@@ -1,0 +1,3 @@
+name: IranMCReportsSpigot
+version: '${project.version}'
+main: me.gameisntover.iranmcreportsspigot.IranMCReportsSpigot
