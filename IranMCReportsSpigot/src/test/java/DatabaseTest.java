@@ -17,16 +17,20 @@ public class DatabaseTest {
         out.println(ticket);
     }
 
+    @Test
     public void selectAllOpen(){
         TicketDatabase ticketDatabase = new TicketDatabase();
         ticketDatabase.loadOpenList();
         out.println(Ticket.ticketMap);
     }
 
+    @Test
     public void insertData(){
         TicketDatabase database = new TicketDatabase();
         database.insertData(new Ticket(Ticket.Type.HELPME, PlayerImpl.of(UUID.randomUUID()),"help im gay"));
     }
+
+    @Test
     public void updateData(){
         TicketDatabase database = new TicketDatabase();
         database.updateStatus(new Ticket(Ticket.Type.REPORT, PlayerImpl.of(UUID.randomUUID()),"help im gay"));
